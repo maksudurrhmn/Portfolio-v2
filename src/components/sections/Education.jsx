@@ -4,6 +4,7 @@ const education = {
   degree: 'Diploma in Engineering',
   department: 'Electrical Engineering',
   institution: 'National Polytechnic Institute',
+  duration: '2020 – 2024',
   status: 'Completed',
 };
 
@@ -73,6 +74,8 @@ export default function Education() {
               <p className="mt-2 font-medium text-accent">{education.department}</p>
 
               <p className="mt-4 text-sm leading-7 text-muted">{education.institution}</p>
+
+              <p className="mt-2 text-sm text-muted">{education.duration}</p>
             </div>
           </div>
 
