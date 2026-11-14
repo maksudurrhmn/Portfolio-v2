@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Maksudur Rahman
 
-## Getting Started
+### 👨‍💻 Aspiring Full Stack Developer
 
-First, run the development server:
+Building modern web experiences and exploring new technologies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌐 **Portfolio:** [Visit Website](YOUR_VERCEL_URL)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`JavaScript` · `TypeScript` · `React` · `Next.js` · `Tailwind CSS` · `Node.js` · `Express.js` · `MongoDB`
 
-## Learn More
+### 🚀 Featured Projects
 
-To learn more about Next.js, take a look at the following resources:
+| Project      | Live Demo                                 | Source Code                                               |
+| ------------ | ----------------------------------------- | --------------------------------------------------------- |
+| 📚 BookNook  | [Visit](https://booknook-ph.vercel.app/)  | [GitHub](https://github.com/maksudurrhmn/BookNook-Client) |
+| 🛒 BazarDor  | [Visit](https://bazardor-ph.vercel.app/)  | [GitHub](https://github.com/maksudurrhmn/BazarDor-PH)     |
+| 🏋️ Fitlog-PH | [Visit](https://fitlogph.vercel.app/)     | [GitHub](https://github.com/maksudurrhmn/Fitlog-PH)       |
+| 💡 DevStack  | [Visit](https://dev-stack-ph.vercel.app/) | [GitHub](https://github.com/maksudurrhmn/DevStack-PH)     |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📬 Connect
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Email:** [maksudurrhmn2001@gmail.com](mailto:maksudurrhmn2001@gmail.com)
+- **GitHub:** [@maksudurrhmn](https://github.com/maksudurrhmn)
+- **LinkedIn:** [Your LinkedIn Profile](YOUR_LINKEDIN_URL)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  <i>Always learning. Always building. ✨</i>
+</p>
