@@ -1,6 +1,7 @@
 import './globals.css';
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
 import ThemeProvider from '@/components/providers/ThemeProvider';
+import Navbar from '@/components/layout/Navbar';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -22,7 +23,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${jakarta.variable} antialiased`}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Navbar />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
