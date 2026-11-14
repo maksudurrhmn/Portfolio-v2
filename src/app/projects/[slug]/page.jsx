@@ -27,11 +27,7 @@ export async function generateMetadata({ params }) {
 
 // Page component
 export default function ProjectPage({ params }) {
-  return (
-    <Suspense fallback={<p>Loading project details...</p>}>
-      <ProjectPageContent params={params} />
-    </Suspense>
-  );
+  return <ProjectPageContent params={params} />;
 }
 
 // Async component

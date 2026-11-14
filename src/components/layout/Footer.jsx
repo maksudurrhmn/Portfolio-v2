@@ -26,7 +26,7 @@ export default function Footer() {
 
           {/* Back to Top */}
           <a
-            href="#home"
+            href="/#home"
             aria-label="Back to top"
             className="group flex size-14 shrink-0 items-center justify-center rounded-full border border-border transition-all duration-300 hover:border-accent hover:bg-accent hover:text-white"
           >
@@ -39,15 +39,15 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="flex flex-col items-center justify-between gap-5 pt-8 sm:flex-row">
-          <div>
-            <a href="#home" className="font-heading text-xl font-bold">
+          <div className="flex flex-col items-center sm:items-baseline justify-center">
+            <a href="/#home" className="font-heading text-xl font-bold">
               Maksudur<span className="text-accent">.</span>
             </a>
 
-            <p className="mt-1 text-xs text-muted">Full Stack Developer</p>
+            <p className="mt-1 text-sm text-muted">Full Stack Web Developer</p>
           </div>
 
-          <p className="text-center text-xs text-muted">
+          <p className="text-center text-sm text-muted">
             ©2026 Maksudur Rahman. All rights reserved.
           </p>
         </div>

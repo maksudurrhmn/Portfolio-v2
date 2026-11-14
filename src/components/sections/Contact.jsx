@@ -11,17 +11,17 @@ const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    href: 'YOUR_LINKEDIN_PROFILE_URL',
+    href: 'https://www.linkedin.com/in/maksudurrhmn/',
     icon: FaLinkedin,
   },
   {
     name: 'Facebook',
-    href: 'YOUR_FACEBOOK_PROFILE_URL',
+    href: 'https://www.facebook.com/maksudurrhmn.xyz',
     icon: FaFacebook,
   },
   {
     name: 'Instagram',
-    href: 'YOUR_INSTAGRAM_PROFILE_URL',
+    href: 'https://www.instagram.com/maksudurrhmn/',
     icon: FaInstagram,
   },
 ];

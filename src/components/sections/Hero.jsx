@@ -10,17 +10,17 @@ const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    href: 'YOUR_LINKEDIN_URL',
+    href: 'https://www.linkedin.com/in/maksudurrhmn/',
     icon: FaLinkedin,
   },
   {
     name: 'Facebook',
-    href: 'YOUR_FACEBOOK_URL',
+    href: 'https://www.facebook.com/maksudurrhmn.xyz',
     icon: FaFacebook,
   },
   {
     name: 'Instagram',
-    href: 'YOUR_INSTAGRAM_URL',
+    href: 'https://www.instagram.com/maksudurrhmn/',
     icon: FaInstagram,
   },
 ];
@@ -96,7 +96,7 @@ export default function Hero() {
       <div className="order-1 flex justify-center lg:order-2 lg:justify-end">
         <div className="relative h-64 w-64 overflow-hidden rounded-full border-4 border-accent/20 shadow-2xl shadow-accent/10 sm:h-80 sm:w-80">
           <Image
-            src="/images/profile/profile.png"
+            src="/images/profile/profile_pic.png"
             alt="Maksudur Rahman"
             fill
             priority
