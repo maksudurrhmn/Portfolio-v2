@@ -2,6 +2,7 @@ import './globals.css';
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
 import ThemeProvider from '@/components/providers/ThemeProvider';
 import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <Navbar />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { ArrowUpRight, Download } from 'lucide-react';
 import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa6';
 
@@ -52,12 +51,12 @@ export default function Hero() {
 
         {/* Action Buttons */}
         <div className="mt-8 flex flex-wrap gap-4">
-          <Link
+          <a
             href="#projects"
             className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-medium text-white transition-transform hover:-translate-y-1"
           >
             View Projects <ArrowUpRight size={18} />
-          </Link>
+          </a>
 
           <a
             href="/resume/resume.pdf"
