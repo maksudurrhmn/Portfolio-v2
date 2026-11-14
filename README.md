@@ -4,7 +4,7 @@
 
 Building modern web experiences and exploring new technologies.
 
-🌐 **Portfolio:** [Visit Website](YOUR_VERCEL_URL)
+🌐 **Portfolio:** [Visit Website](maksudurrhmn.vercel.app)
 
 ---
 
@@ -25,7 +25,7 @@ Building modern web experiences and exploring new technologies.
 
 - **Email:** [maksudurrhmn2001@gmail.com](mailto:maksudurrhmn2001@gmail.com)
 - **GitHub:** [@maksudurrhmn](https://github.com/maksudurrhmn)
-- **LinkedIn:** [Your LinkedIn Profile](YOUR_LINKEDIN_URL)
+- **LinkedIn:** [@maksudurrhmn](https://www.linkedin.com/in/maksudurrhmn)
 
 ---
 
