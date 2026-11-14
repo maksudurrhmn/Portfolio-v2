@@ -1,10 +1,10 @@
 # Maksudur Rahman
 
-### 👨‍💻 Aspiring Full Stack Developer
+### 👨‍💻 Full Stack Web Developer
 
 Building modern web experiences and exploring new technologies.
 
-🌐 **Portfolio:** [Visit Website](maksudurrhmn.vercel.app)
+🌐 **Portfolio:** [Visit Website](https://maksudurrhmn.vercel.app/)
 
 ---
 
