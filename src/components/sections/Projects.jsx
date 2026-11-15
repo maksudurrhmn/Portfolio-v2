@@ -8,11 +8,13 @@ import {
   Layers3,
 } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
+import Image from 'next/image';
 
 const projects = [
   {
     title: 'BookNook',
     category: 'Full Stack Application',
+    image: '/images/projects/Booknook.png',
     description:
       'A library management application where users can discover books, borrow and return them, and manage their own book listings.',
     technologies: ['Next.js', 'React', 'Node.js', 'Express.js', 'MongoDB', 'Better Auth'],
@@ -25,6 +27,7 @@ const projects = [
   {
     title: 'BazarDor',
     category: 'Web Application',
+    image: '/images/projects/Bazardor.png',
     description:
       'A Bangla market-price application that helps users explore essential product prices and track price changes in Bangladesh.',
     technologies: ['Next.js', 'React', 'JavaScript', 'Tailwind CSS', 'MongoDB', 'Better Auth'],
@@ -37,6 +40,7 @@ const projects = [
   {
     title: 'Fitlog',
     category: 'Workout Planner',
+    image: '/images/projects/Fitlog.png',
     description:
       'A workout planning application where users can explore exercises, create daily workout plans, and save their favorite workouts.',
     technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'DaisyUI'],
@@ -49,6 +53,7 @@ const projects = [
   {
     title: 'DevStack',
     category: 'React Application',
+    image: '/images/projects/Devstack.png',
     description:
       'A responsive application that allows developers to explore different technologies and build their own personal tech stack.',
     technologies: ['React', 'JavaScript', 'Tailwind CSS', 'Vite', 'JSON'],
@@ -89,18 +94,20 @@ export default function Projects() {
                 className="group overflow-hidden rounded-2xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-accent/50"
               >
                 {/* Project Preview */}
-                <div
-                  className={`relative flex h-52 items-center justify-center bg-linear-to-br ${project.theme}`}
-                >
-                  <div className="rounded-2xl border border-white/10 bg-background/70 p-6 shadow-xl backdrop-blur-sm transition-transform duration-300 group-hover:scale-110">
-                    <Icon size={52} strokeWidth={1.4} className="text-accent" />
-                  </div>
+                <div className="relative h-52 overflow-hidden bg-surface">
+                  <Image
+                    src={project.image}
+                    alt={`${project.title} project screenshot`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                  />
 
-                  <span className="absolute bottom-4 left-5 text-xs font-medium uppercase tracking-widest text-muted">
+                  <span className="absolute bottom-4 left-5 rounded-full border border-border bg-background/80 px-3 py-1 text-xs font-medium uppercase tracking-widest text-muted backdrop-blur-sm">
                     {project.category}
                   </span>
 
-                  <span className="absolute right-5 top-5 rounded-full border border-border bg-background/70 px-3 py-1 text-xs text-muted">
+                  <span className="absolute right-5 top-5 rounded-full border border-border bg-background/80 px-3 py-1 text-xs text-muted backdrop-blur-sm">
                     Featured
                   </span>
                 </div>

@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation';
-import { Suspense } from 'react';
 
 import { projects } from '@/data/projects';
 import ProjectDetails from '@/components/sections/ProjectDetails';

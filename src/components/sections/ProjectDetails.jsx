@@ -9,6 +9,7 @@ import {
   Lightbulb,
 } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
+import Image from 'next/image';
 
 export default function ProjectDetails({ project }) {
   return (
@@ -70,13 +71,16 @@ export default function ProjectDetails({ project }) {
             </div>
           </div>
 
-          {/* Project Preview Placeholder */}
-          <div className="mb-16 flex min-h-64 items-center justify-center rounded-2xl border border-border bg-surface p-8 sm:min-h-80">
-            <div className="text-center">
-              <Layers3 size={52} className="mx-auto text-accent" />
-              <p className="mt-4 font-heading text-xl font-semibold">{project.title}</p>
-              <p className="mt-2 text-sm text-muted">Project screenshot coming soon</p>
-            </div>
+          {/* Project Screenshot */}
+          <div className="relative mb-16 aspect-video w-full overflow-hidden rounded-2xl border border-border bg-surface">
+            <Image
+              src={project.image}
+              alt={`${project.title} project screenshot`}
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="object-cover object-top"
+            />
           </div>
 
           {/* Technologies */}

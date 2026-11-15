@@ -3,6 +3,7 @@ export const projects = [
     slug: 'booknook',
     title: 'BookNook',
     category: 'Full Stack Library Management',
+    image: '/images/projects/Booknook.png',
     description:
       'A full-stack library management application where users can discover books, borrow and return them, and manage their own book listings.',
 
@@ -40,6 +41,7 @@ export const projects = [
     slug: 'bazardor',
     title: 'BazarDor',
     category: 'Market Price Tracking Application',
+    image: '/images/projects/Bazardor.png',
     description:
       'A Bangla web application that helps users explore essential product prices in Bangladesh, browse categories, track price changes, and manage their accounts.',
 
@@ -76,6 +78,7 @@ export const projects = [
     slug: 'fitlog',
     title: 'Fitlog',
     category: 'Workout Planning Application',
+    image: '/images/projects/Fitlog.png',
     description:
       'A modern workout planning application where users can explore exercises, create daily workout plans, and save their favorite workouts.',
 
@@ -110,6 +113,7 @@ export const projects = [
     slug: 'devstack',
     title: 'DevStack',
     category: 'React Application',
+    image: '/images/projects/Devstack.png',
     description:
       'A responsive React application where developers can explore different technologies and build their own personal tech stack.',
 
