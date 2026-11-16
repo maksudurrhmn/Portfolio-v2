@@ -17,7 +17,7 @@ import {
 
 import { VscVscode } from 'react-icons/vsc';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { ShieldCheck, Send } from 'lucide-react';
+import { ShieldCheck, Send, Zap } from 'lucide-react';
 
 const skillCategories = [
   {
@@ -57,7 +57,7 @@ const skillCategories = [
       { name: 'Vercel', icon: SiVercel },
       { name: 'REST APIs', icon: Send },
       { name: 'JSON', icon: SiJson },
-      { name: 'Thunder Client', icon: Send },
+      { name: 'Thunder Client', icon: Zap },
       { name: 'Figma', icon: SiFigma },
     ],
   },
